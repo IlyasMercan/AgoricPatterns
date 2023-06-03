@@ -14,3 +14,5 @@
     + [PATTERN3B](/patterns/TODO): some info of pattern 3B
 
 Click [here](/patterns/TODO) to see the Legenda
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
