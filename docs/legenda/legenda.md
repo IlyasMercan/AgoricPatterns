@@ -1,7 +1,6 @@
 # The seat structure diagram
+<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/legenda/images/legenda.PNG" width="400">
 
-![Parts of a seat structure
-diagram.](./images/legenda.PNG){width=400px}
 -   a
 
     -   Represents a non-creator called 'actor'.

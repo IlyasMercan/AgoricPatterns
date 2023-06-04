@@ -12,8 +12,7 @@ customer and the creator.
 -   The smart contract is able to run indefinitely.
 
 ## Structure
-![Seat structure diagram of the salesperson
-pattern](./images/theSalespersonPattern.PNG){width=400px}
+<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/patterns/images/theSalespersonPattern.PNG" width="400">
 
 Again, the way that the buyer gets hold of the `customerInvitation` is a
 design choice made by the smart contract designer: it is not included in

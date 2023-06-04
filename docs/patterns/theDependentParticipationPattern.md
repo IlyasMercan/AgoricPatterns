@@ -15,8 +15,7 @@ can share with potential counter parties.
     with.
 
 ## Structure
-![Seat structure diagram of the dependent participation
-pattern](./images/theDependentParticipationPattern.PNG){width=400px}
+<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/patterns/images/theDependentParticipationPattern.PNG" width="400">
 
 ## Participants
 -   Creator: the entity that starts an instance of the smart contract.

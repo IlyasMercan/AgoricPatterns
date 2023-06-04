@@ -11,8 +11,7 @@ amount of trades, where each trade is an exchange between 2 entities.
 -   The smart contract is able to run indefinitely.
 
 ## Structure
-![Seat structure diagram of the exchange
-pattern](./images/theExchangePattern.PNG){width=200px}
+<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/patterns/images/theExchangePattern.PNG" width="200">
 
 ## Participants
 -   Trader: the entity that wants to trade something.

@@ -16,8 +16,7 @@ smart contract that configures the generic smart contract.
     wrapped smart contract in different ways.
 
 ## Structure
-![Seat structure diagram of the composite contract
-pattern](./images/theCompositeContractPattern.PNG){width=400px}
+<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/patterns/images/theCompositeContractPattern.PNG" width="400">
 
 ## Participants
 -   Creator: the entity that starts an instance of the smart contract.
