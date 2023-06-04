@@ -11,8 +11,7 @@ down.
 ## Context
 Smart contracts can have a seat as an attribute, as seen in
 the managed assets pattern. When a contract shuts down, the funds
-allocated to this internal seat are lost. This problem is known by the
-Agoric development team, but has not yet been resolved [1] [2].
+allocated to this internal seat are lost. This is a known problem in Agoric [1] [2].
 Thus, a smart contract developer should ensure that all funds are
 withdrawn from the internal seat before the contract is shut down.
 
