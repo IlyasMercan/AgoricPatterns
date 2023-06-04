@@ -24,45 +24,44 @@
 
 -   d
 
-    -   An object called 'object~1~' of type 'type~1~' can generate n~3~
-        instance of an object called 'object~2~' of type 'type~2~'.
+    -   An object called 'object<sub>1</sub>' of type 'type<sub>1</sub>' can generate n<sub>3</sub> instance of an object called 'object<sub>2</sub>' of type 'type<sub>2</sub>'.
 
-    -   There can be n~1~ instance(s) of 'object~1~' for 1 instance of
+    -   There can be n<sub>1</sub> instance(s) of 'object<sub>1</sub>' for 1 instance of
         the smart contract.
 
-    -   There can be n~2~ instance(s) of 'object~2~' for 1 instance of
+    -   There can be n<sub>2</sub> instance(s) of 'object<sub>2</sub>' for 1 instance of
         the smart contract.
 
 -   e
 
     -   An actor/creator can use 1 instance of an object called
-        'object~1~' of type 'type~1~' to generate n~3~ instance of an
-        object called 'object~2~' of type 'type~2~'.
+        'object<sub>1</sub>' of type 'type<sub>1</sub>' to generate n<sub>3</sub> instance of an
+        object called 'object<sub>2</sub>' of type 'type<sub>2</sub>'.
 
-    -   There can be n~1~ instance(s) of 'object~1~' for 1 instance of
+    -   There can be n<sub>1</sub> instance(s) of 'object<sub>1</sub>' for 1 instance of
         the smart contract.
 
-    -   There can be n~2~ instance(s) of 'object~2~' for 1 instance of
+    -   There can be n<sub>2</sub> instance(s) of 'object<sub>2</sub>' for 1 instance of
         the smart contract.
 
 -   f
 
-    -   Seat 'seat~1~' and seat 'seat~2~' trade with one another.
+    -   Seat 'seat<sub>1</sub>' and seat 'seat<sub>2</sub>' trade with one another.
 
-    -   There can be n~1~ instance(s) of 'seat~1~' for 1 instance of the
+    -   There can be n<sub>1</sub> instance(s) of 'seat<sub>1</sub>' for 1 instance of the
         smart contract.
 
-    -   There can be n~2~ instance(s) of 'seat~2~' for 1 instance of the
+    -   There can be n<sub>2</sub> instance(s) of 'seat<sub>2</sub>' for 1 instance of the
         smart contract.
 
 -   g
 
-    -   Seat seat~1~ and seat seat~2~ are equal to one another.
+    -   Seat seat<sub>1</sub> and seat seat<sub>2</sub> are equal to one another.
 
-    -   There can be n~1~ instance(s) of 'seat~1~' for 1 instance of the
+    -   There can be n<sub>1</sub> instance(s) of 'seat<sub>1</sub>' for 1 instance of the
         smart contract.
 
-    -   There can be n~2~ instance(s) of 'seat~2~' for 1 instance of the
+    -   There can be n<sub>2</sub> instance(s) of 'seat<sub>2</sub>' for 1 instance of the
         smart contract.
 
 -   h
