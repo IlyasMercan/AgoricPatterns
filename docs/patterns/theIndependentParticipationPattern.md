@@ -17,7 +17,7 @@ participate in the smart contract.
 
 ## Structure
 ![Seat structure diagram of the independent participation
-pattern](./images/theIndependentParticipationPattern.PNG)
+pattern](./images/theIndependentParticipationPattern.PNG){width=400px}
 
 ## Participants
 -   Creator: the entity that starts an instance of the smart contract.

@@ -16,7 +16,7 @@ can share with potential counter parties.
 
 ## Structure
 ![Seat structure diagram of the dependent participation
-pattern](./images/theDependentParticipationPattern.PNG)
+pattern](./images/theDependentParticipationPattern.PNG){width=400px}
 
 ## Participants
 -   Creator: the entity that starts an instance of the smart contract.

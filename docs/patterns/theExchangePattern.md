@@ -12,7 +12,7 @@ amount of trades, where each trade is an exchange between 2 entities.
 
 ## Structure
 ![Seat structure diagram of the exchange
-pattern](./images/theExchangePattern.PNG)
+pattern](./images/theExchangePattern.PNG){width=200px}
 
 ## Participants
 -   Trader: the entity that wants to trade something.
