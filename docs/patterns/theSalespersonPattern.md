@@ -13,8 +13,7 @@ customer and the creator.
 
 ## Structure
 ![Seat structure diagram of the salesperson
-pattern](./images/theSalespersonPattern.PNG){#theSalespersonPatternSeatStructureDiagram
-width="9cm"}
+pattern](./images/theSalespersonPattern.PNG)
 
 Again, the way that the buyer gets hold of the `customerInvitation` is a
 design choice made by the smart contract designer: it is not included in

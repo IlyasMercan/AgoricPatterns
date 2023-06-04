@@ -21,8 +21,7 @@ smart contract determines what other entity it will trade with.
 
 ## Structure
 ![Seat structure diagram of the bilateral trade agreement
-pattern](./images/theBilateralTradeAgreementPattern.PNG){#theBilateralTradeAgreementPatternSeatStructureDiagram
-width="9cm"}
+pattern](./images/theBilateralTradeAgreementPattern.PNG)
 
 ## Participants
 -   Creator: the entity that starts an instance of the smart contract.

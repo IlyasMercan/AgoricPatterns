@@ -1,8 +1,7 @@
 # The seat structure diagram
 
 ![Parts of a seat structure
-diagram.](./images/legenda.PNG){#seatStructureDiagramLegenda width="10cm"}
-
+diagram.](./images/legenda.PNG)
 -   a
 
     -   Represents a non-creator called 'actor'.

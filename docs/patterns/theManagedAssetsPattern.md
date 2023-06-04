@@ -24,8 +24,7 @@ customer.
 
 ## Structure
 ![Seat structure diagram of the managed assets
-pattern](./images/theManagedAssetsPattern.PNG){#theManagedAssetsPatternSeatStructureDiagram
-width="9cm"}
+pattern](./images/theManagedAssetsPattern.PNG)
 
 Note that this seat structure diagram does not
 specify how the customer got hold of the `customerInvitation`. This is
