@@ -3,7 +3,7 @@
 ## Patterns
 
 + PATTERNS SECTION A
-    + [PATTERN1A](/patterns/TODO): some info of pattern 1A
+    + [PATTERN1A](/patterns/pattern1.md): some info of pattern 1A
     + [PATTERN2A](/patterns/TODO): some info of pattern 2A
     + [PATTERN3A](/patterns/TODO): some info of pattern 3A
 
