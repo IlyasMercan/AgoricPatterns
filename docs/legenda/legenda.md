@@ -1,5 +1,5 @@
 # The seat structure diagram
-<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/legenda/images/legenda.PNG" width="400">
+<img src="https://raw.githubusercontent.com/IlyasMercan/AgoricPatterns/main/docs/legenda/images/legenda.PNG" width="600">
 
 -   a
 
