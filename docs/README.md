@@ -2,7 +2,7 @@
 
 ## Patterns
 
-+ Trade patterns
++ **Trade patterns**: high-level patterns which can be derived from seat structure diagrams
 	+ [The bilateral trade agreement pattern](/patterns/theBilateralTradeAgreementPattern.md)
 	+ [The composite contract pattern](/patterns/theCompositeContractPattern.md)
 	+ [The dependent participation pattern](/patterns/theDependentParticipationPattern.md)
@@ -10,7 +10,7 @@
 	+ [The exchange pattern](/patterns/theExchangePattern.md)
 	+ [The managed assets pattern](/patterns/theManagedAssetsPattern.md)
 	+ [The salesperson pattern](/patterns/theSalespersonPattern.md)
-+ Code patterns
++ **Code patterns**: low-level patterns which cannot be derived from seat structure diagrams
 	+ Generic code patterns
 		+ [Hardening interface objects](/patterns/hardeningInterfaceObjects.md)
 		+ [Enforcing eventual interactions with untrusted parties](/patterns/enforcingEventualInteractionsWithUntrustedParties.md)
