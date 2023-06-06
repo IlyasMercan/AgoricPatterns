@@ -81,7 +81,7 @@ should be allowed to set the attribute after the smart contract has
 already started, then the delayed configuration pattern can be used.
 
 ## Known uses
--   The oracle smart contract.
+-   The [oracle](https://docs.agoric.com/guides/zoe/contracts/oracle.html) smart contract.
 
 ## References
 [1] Agoric, [Zoe service](https://docs.agoric.com/reference/zoe-api/zoe.html)

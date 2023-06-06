@@ -71,10 +71,10 @@ and a string message is returned. Thus, when the counterparty uses the
 that optional assertions about the shape of each proposal can be made.
 
 ## Known uses
--   The atomic swap smart contract.
--   The covered call smart contract.
--   The loan smart contract.
--   The funded call spread smart contract.
+-   The [atomic swap](https://docs.agoric.com/guides/zoe/contracts/atomic-swap.html) smart contract.
+-   The [covered call](https://docs.agoric.com/guides/zoe/contracts/covered-call.html) smart contract.
+-   The [loan](https://docs.agoric.com/guides/zoe/contracts/loan.html) smart contract.
+-   The [funded call spread](https://docs.agoric.com/guides/zoe/contracts/fundedCallSpread.html) smart contract.
 
 ## Related patterns
 -   The dependent participation pattern and the independent

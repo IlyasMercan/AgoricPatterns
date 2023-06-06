@@ -40,8 +40,7 @@ An untrusted invitation can be turned into a trusted invitation
 by claiming it, using the `invitationIssuer` provided by `zoe`.
 
 ## Known uses
--   The claiming of untrusted invitations is needed in the test code /
-    dapp for each smart contract that makes use of invitations.
+-   The claiming of untrusted invitations is needed in the test code / dapp for each smart contract that makes use of invitations.
 
 ## References
 [1] Agoric, [Glossary](https://docs.agoric.com/glossary)

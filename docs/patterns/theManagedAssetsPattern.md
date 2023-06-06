@@ -73,8 +73,8 @@ designer should determine how invitations are made available to
 customers.
 
 ## Known uses
--   The oracle smart contract.
--   The Over The Counter desk smart contract.
+-   The [oracle](https://docs.agoric.com/guides/zoe/contracts/oracle.html) smart contract.
+-   The [Over The Counter desk](https://docs.agoric.com/guides/zoe/contracts/otc-desk.html) smart contract.
 
 ## Related patterns
 -   The salesperson pattern: both these patterns are market places where

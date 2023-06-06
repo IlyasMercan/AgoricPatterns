@@ -54,7 +54,7 @@ salesperson pattern does not include how the invitation linked to the
 the contract designer. 
 
 ## Known uses
--   The sell items smart contract.
+-   The [sell items](https://docs.agoric.com/guides/zoe/contracts/sell-items.html) smart contract.
 
 ## Related patterns
 -   The managed assets pattern: as stated before, both the managed

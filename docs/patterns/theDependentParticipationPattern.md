@@ -42,11 +42,11 @@ The smart contract returns a `creatorFacet` with a method
 of invitations.
 
 ## Known uses
--   The mint payments smart contract.
--   The Over The Counter desk smart contract.
--   The priced call spread smart contract.
--   The second-price auction smart contract.
--   The escrow to vote smart contract.
+-   The [mint payments](https://docs.agoric.com/guides/zoe/contracts/mint-payments.html) smart contract.
+-   The [Over The Counter desk](https://docs.agoric.com/guides/zoe/contracts/otc-desk.html) smart contract.
+-   The [priced call spread](https://docs.agoric.com/guides/zoe/contracts/pricedCallSpread.html) smart contract.
+-   The [second-price auction](https://docs.agoric.com/guides/zoe/contracts/second-price-auction.html) smart contract.
+-   The [escrow to vote](https://docs.agoric.com/guides/zoe/contracts/escrow-to-vote.html) smart contract.
 
 Note that, although the sell items smart contract does return a
 `creatorFacet` with a `makeBuyerInvitation` method, it is not included

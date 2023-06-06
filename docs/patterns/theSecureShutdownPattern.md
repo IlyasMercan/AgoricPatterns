@@ -180,7 +180,7 @@ internal seat then all funds allocated to this internal seat should be
 withdrawn before shutting down the smart contract.
 
 ## Known uses
--   The oracle smart contract.
+-   The [oracle](https://docs.agoric.com/guides/zoe/contracts/oracle.html) smart contract.
 
 ## References
 [1] anilhelvaci, [What if a contract dies when it is holding assets?](https://github.com/Agoric/agoric-sdk/discussions/5469)

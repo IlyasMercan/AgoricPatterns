@@ -45,8 +45,8 @@ in the smart contract. This allows the seat to be included in future
 searches performed by the matching algorithm.
 
 ## Known uses
--   The barter exchange smart contract.
--   The simple exchange smart contract.
+-   The [barter exchange](https://docs.agoric.com/guides/zoe/contracts/barter-exchange.html) smart contract.
+-   The [simple exchange](https://docs.agoric.com/guides/zoe/contracts/simple-exchange.html) smart contract.
 
 ## Related patterns
 -   The independent participation pattern: since the exchange pattern

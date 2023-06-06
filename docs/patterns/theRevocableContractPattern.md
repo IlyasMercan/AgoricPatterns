@@ -246,8 +246,8 @@ shut down, then the revocable contract pattern should be used to shut
 down this functionality together with the smart contract.
 
 ## Known uses
--   The oracle smart contract.
--   The escrow to vote smart contract.
+-   The [oracle](https://docs.agoric.com/guides/zoe/contracts/oracle.html) smart contract.
+-   The [escrow to vote](https://docs.agoric.com/guides/zoe/contracts/escrow-to-vote.html) smart contract.
 
 ## References
 [1] Agoric, [Zoe contract facet](https://docs.agoric.com/reference/zoe-api/zoe-contract-facet.html)

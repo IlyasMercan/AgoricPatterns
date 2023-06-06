@@ -44,13 +44,13 @@ can create an arbitrary amount of invitations using the `makeInvitation`
 method.
 
 ## Known uses
--   The automatic refund smart contract.
--   The barter exchange smart contract.
--   The mint and sell NFT smart contract.
--   The oracle smart contract.
--   The sell items smart contract.
--   The simple exchange smart contract.
--   The use object smart contract.
+-   The [automatic refund](https://docs.agoric.com/guides/zoe/contracts/automatic-refund.html) smart contract.
+-   The [barter exchange](https://docs.agoric.com/guides/zoe/contracts/barter-exchange.html) smart contract.
+-   The [mint and sell NFTs](https://docs.agoric.com/guides/zoe/contracts/mint-and-sell-nfts.html) smart contract.
+-   The [oracle](https://docs.agoric.com/guides/zoe/contracts/oracle.html) smart contract.
+-   The [sell items](https://docs.agoric.com/guides/zoe/contracts/sell-items.html) smart contract.
+-   The [simple exchange](https://docs.agoric.com/guides/zoe/contracts/simple-exchange.html) smart contract.
+-   The [use object](https://docs.agoric.com/guides/zoe/contracts/use-obj-example.html) smart contract.
 
 ## Related patterns
 -   The dependent participation pattern: as explained in the dependent

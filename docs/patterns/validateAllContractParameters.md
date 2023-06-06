@@ -134,23 +134,18 @@ If the user provides any form of input, then it should
 be verified whether this given input is indeed as expected. 
 
 ## Known uses
--   The atomic swap smart contract: validates proposal shape.
--   The covered call smart contract: validates proposal shape.
--   The Over The Counter desk smart contract: validates proposal shape.
--   The sell items smart contract: validates proposal shape, want part
-    of proposal, issuer keywords, whether brand is fungible.
--   The simple exchange smart contract: validates the issuer keywords
--   The loan smart contract: validates issuer keywords, presence of
+-   The [atomic swap](https://docs.agoric.com/guides/zoe/contracts/atomic-swap.html) smart contract: validates proposal shape.
+-   The [covered call](https://docs.agoric.com/guides/zoe/contracts/covered-call.html) smart contract: validates proposal shape.
+-   The [Over The Counter desk](https://docs.agoric.com/guides/zoe/contracts/otc-desk.html) smart contract: validates proposal shape.
+-   The [sell items](https://docs.agoric.com/guides/zoe/contracts/sell-items.html) smart contract: validates proposal shape, want part of proposal, issuer keywords, whether brand is fungible.
+-   The [simple exchange](https://docs.agoric.com/guides/zoe/contracts/simple-exchange.html) smart contract: validates the issuer keywords
+-   The [loan](https://docs.agoric.com/guides/zoe/contracts/loan.html) smart contract: validates issuer keywords, presence of
     terms, proposal shape
--   The funded call spread smart contract: validates whether brand is
-    fungible, proposal shape
--   The priced call spread smart contract: validates whether brand is
-    fungible, proposal shape.
--   The second price auction smart contract: validates proposal shape,
-    issuer keywords
--   The escrow to vote smart contract: validates proposal shape, issuer
-    keywords, whether brand is fungible.
--   The use object smart contract: validates proposal shape, issuer
+-   The [funded call spread](https://docs.agoric.com/guides/zoe/contracts/fundedCallSpread.html) smart contract: validates whether brand is fungible, proposal shape
+-   The [priced call spread](https://docs.agoric.com/guides/zoe/contracts/pricedCallSpread.html) smart contract: validates whether brand is fungible, proposal shape.
+-   The [second price auction](https://docs.agoric.com/guides/zoe/contracts/second-price-auction.html) smart contract: validates proposal shape, issuer keywords
+-   The [escrow to vote](https://docs.agoric.com/guides/zoe/contracts/escrow-to-vote.html) smart contract: validates proposal shape, issuer keywords, whether brand is fungible.
+-   The [use object](https://docs.agoric.com/guides/zoe/contracts/use-obj-example.html) smart contract: validates proposal shape, issuer
     keywords.
 
 ## References

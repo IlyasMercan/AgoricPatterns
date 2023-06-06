@@ -57,9 +57,9 @@ this wrapped smart contract. The wrapper smart contract then returns the
 objects returned by the wrapped smart contract. 
 
 ## Known uses
--   The mint and sell NFT smart contract.
--   The Over The Counter desk smart contract.
--   The loan smart contract.
+-   The [mint and sell NFTs](https://docs.agoric.com/guides/zoe/contracts/mint-and-sell-nfts.html) smart contract.
+-   The [Over The Counter desk](https://docs.agoric.com/guides/zoe/contracts/otc-desk.html) smart contract.
+-   The [loan](https://docs.agoric.com/guides/zoe/contracts/loan.html) smart contract.
 
 ## Related patterns
 /
