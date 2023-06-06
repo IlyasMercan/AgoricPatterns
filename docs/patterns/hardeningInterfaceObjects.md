@@ -60,10 +60,10 @@ If entity `e` creates an object `o` and entity `e` passes object `o` across the 
     method before exporting the `start` method.
 
 ## References
-[1] Endo, “Endo and hardened javascript (ses) programming guide,” 2021, (accessed December 10, 2022). [Online]. Available: https://github.com/endojs/endo/blob/HEAD/packages/ses/docs/guide.md
+[1] Endo, [Endo and hardened javascript (ses) programming guide](https://github.com/endojs/endo/blob/HEAD/packages/ses/docs/guide.md)
 
-[2] Agoric, “Glossary,” 2022, (accessed December 10, 2022). [Online]. Available: https://docs.agoric.com/glossary
+[2] Agoric, [Glossary](https://docs.agoric.com/glossary)
 
-[3] M. S. Miller and K. Sills, “Why not to use object.freeze for immutable js objects?” 2019, (accessed April 22, 2023). [Online]. Available: https://ocapjs.org/t/why-not-to-use-object-freeze-for-immutable-js-objects/91
+[3] M. S. Miller and K. Sills, [Why not to use object.freeze for immutable js objects?](https://ocapjs.org/t/why-not-to-use-object-freeze-for-immutable-js-objects/91)
 
-[4] Agoric, “Hardened javascript,” 2022, (accessed December 24, 2022). [Online]. Available: https://docs.agoric.com/guides/js-programming/hardened-js.html
+[4] Agoric, [Hardened javascript](https://docs.agoric.com/guides/js-programming/hardened-js.html)

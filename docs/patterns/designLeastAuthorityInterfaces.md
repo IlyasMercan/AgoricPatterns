@@ -146,8 +146,8 @@ The methods of the smart contract should only return the bare minimum needed to 
 -   All studied smart contracts use this pattern.
 
 ## References
-[1] Agoric, “Glossary,” 2022, (accessed December 10, 2022). [Online]. Available: https://docs.agoric.com/glossary
+[1] Agoric, [Glossary](https://docs.agoric.com/glossary)
 
-[2] Agoric, “Contract requirements,” 2022, (accessed December 17, 2022). [Online]. Available: https://docs.agoric.com/guides/zoe/contract-requirements.html
+[2] Agoric, [Contract requirements](https://docs.agoric.com/guides/zoe/contract-requirements.html)
 
-[3] Agoric, “Hardened javascript,” 2022, (accessed December 24, 2022). [Online]. Available: https://docs.agoric.com/guides/js-programming/hardened-js.html
+[3] Agoric, [Hardened javascript](https://docs.agoric.com/guides/js-programming/hardened-js.html)

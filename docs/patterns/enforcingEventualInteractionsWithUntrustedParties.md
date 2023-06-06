@@ -76,15 +76,14 @@ Note that the `E` function can also be used on local objects [7].
 ## References
 [1] M. S. Miller, D. Tribble, and J. Shapiro, “Concurrency among strangers: Programming in e as plan coordination,” Thesis, 2005.
 
-[2] Agoric, “Javascript framework for secure distributed computing,” 2022, (ac-cessed December 10, 2022). [Online]. Available: https://docs.agoric.com/guides/js-programming/
+[2] Agoric, [Javascript framework for secure distributed computing](https://docs.agoric.com/guides/js-programming/)
 
-[3] M. W. Docs, “The event loop,” (accessed December 24, 2022). [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+[3] M. W. Docs, [The event loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
 
-[4] Agoric, “Glossary,” 2022, (accessed December 10, 2022). [Online]. Available: https://docs.agoric.com/glossary
+[4] Agoric, [Glossary](https://docs.agoric.com/glossary)
 
-[5] Agoric, “How agoric solves reentrancy hazards and other platform features,” 2020. [Online]. Available: https://www.youtube.com/watch?v=38oTyVv_D9I
+[5] Agoric, [How agoric solves reentrancy hazards and other platform features](https://www.youtube.com/watch?v=38oTyVv_D9I)
 
-[6] F. Volland, “Checks effects interactions,” (accessed April 15, 2023). [Online]. Available: https://fravoll.github.io/solidity-patterns/checks_effects_interactions.html
+[6] F. Volland, [Checks effects interactions](https://fravoll.github.io/solidity-patterns/checks_effects_interactions.html)
 
-[7] Agoric, “Eventual send with e(),” 2023, (accessed April 5, 2023). [Online]. Available:
-https://docs.agoric.com/guides/js-programming/eventual-send.html
+[7] Agoric, [Eventual send with e()](https://docs.agoric.com/guides/js-programming/eventual-send.html)

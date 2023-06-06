@@ -44,6 +44,6 @@ by claiming it, using the `invitationIssuer` provided by `zoe`.
     dapp for each smart contract that makes use of invitations.
 
 ## References
-[1] Agoric, “Glossary,” 2022, (accessed December 10, 2022). [Online]. Available: https://docs.agoric.com/glossary
+[1] Agoric, [Glossary](https://docs.agoric.com/glossary)
 
-[2] Agoric, “test-atomicswap.js,” 2020, (accessed December 17, 2022). [Online]. Available: https://github.com/Agoric/agoric-sdk/blob/f29591519809dbadf19db0a26f38704d87429b89/packages/zoe/test/unitTests/contracts/test-atomicSwap.js
+[2] Agoric, [test-atomicswap.js](https://github.com/Agoric/agoric-sdk/blob/f29591519809dbadf19db0a26f38704d87429b89/packages/zoe/test/unitTests/contracts/test-atomicSwap.js)

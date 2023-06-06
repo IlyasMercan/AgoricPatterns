@@ -250,4 +250,4 @@ down this functionality together with the smart contract.
 -   The escrow to vote smart contract.
 
 ## References
-[1] Agoric, “Zoe contract facet,” 2022, (accessed December 17, 2022). [Online]. Available: https://docs.agoric.com/reference/zoe-api/zoe-contract-facet.html
+[1] Agoric, [Zoe contract facet](https://docs.agoric.com/reference/zoe-api/zoe-contract-facet.html)

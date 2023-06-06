@@ -84,4 +84,4 @@ already started, then the delayed configuration pattern can be used.
 -   The oracle smart contract.
 
 ## References
-[1] Agoric, “Zoe service,” 2022, (accessed December 18, 2022). [Online]. Available: https://docs.agoric.com/reference/zoe-api/zoe.html
+[1] Agoric, [Zoe service](https://docs.agoric.com/reference/zoe-api/zoe.html)

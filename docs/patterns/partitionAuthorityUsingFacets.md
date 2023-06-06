@@ -101,8 +101,8 @@ All methods that should be made publicly available should be hosted in the `publ
 -   All studied smart contracts use this pattern.
 
 ## References
-[1] Agoric, “Contract requirements,” 2022, (accessed December 17, 2022). [Online]. Available: https://docs.agoric.com/guides/zoe/contract-requirements.html
+[1] Agoric, [Contract requirements](https://docs.agoric.com/guides/zoe/contract-requirements.html)
 
-[2] Agoric, “Glossary,” 2022, (accessed December 10, 2022). [Online]. Available: https://docs.agoric.com/glossary
+[2] Agoric, [Glossary](https://docs.agoric.com/glossary)
 
-[3] Agoric, “Deploying smart contracts,” 2023, (accessed April 23, 2023). [Online]. Available: https://docs.agoric.com/guides/getting-started/deploying.html
+[3] Agoric, [Deploying smart contracts](https://docs.agoric.com/guides/getting-started/deploying.html)

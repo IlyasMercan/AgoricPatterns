@@ -183,7 +183,6 @@ withdrawn before shutting down the smart contract.
 -   The oracle smart contract.
 
 ## References
-[1] anilhelvaci, “What if a contract dies when it is holding assets?” 2022, (accessed April 9, 2023). [Online]. Available: https://github.com/Agoric/agoric-sdk/discussions/5469
+[1] anilhelvaci, [What if a contract dies when it is holding assets?](https://github.com/Agoric/agoric-sdk/discussions/5469)
 
-[2] N. Lai, “A contract must not lose assets if it dies,” 2022, (accessed April 9, 2023).
-[Online]. Available: https://github.com/Agoric/agoric-sdk/issues/5486
+[2] N. Lai, [A contract must not lose assets if it dies](https://github.com/Agoric/agoric-sdk/issues/5486)

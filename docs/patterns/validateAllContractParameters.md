@@ -154,6 +154,6 @@ be verified whether this given input is indeed as expected.
     keywords.
 
 ## References
-[1] F. Volland, “Checks effects interactions,” (accessed April 15, 2023). [Online]. Available: https://fravoll.github.io/solidity-patterns/checks_effects_interactions.html
+[1] F. Volland, [Checks effects interactions](https://fravoll.github.io/solidity-patterns/checks_effects_interactions.html)
 
-[2] Agoric, “Nat,” 2021, (accessed April 3, 2023). [Online]. Available: https://github.com/Agoric/nat/tree/10643089592f04be2bea4222202067835ceaba79
+[2] Agoric, [Nat](https://github.com/Agoric/nat/tree/10643089592f04be2bea4222202067835ceaba79)
