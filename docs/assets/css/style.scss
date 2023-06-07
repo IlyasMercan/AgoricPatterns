@@ -8,25 +8,25 @@ $header-bg-color-secondary: #BB2D40 !default;
 @import "{{ site.theme }}";
 
 .description-anchor:link {
-    color: #ffffffff;
+    color: $section-headings-color;
     opacity: 0.7;
     text-decoration: underline;
 }
   
 .description-anchor:visited {
-    color: #ffffffff;
+    color: $section-headings-color;
     opacity: 0.7;
     text-decoration: underline;
 }
   
 description-anchor:hover {
-    color: #ffffffff;
+    color: $section-headings-color;
     opacity: 0.7;
     text-decoration: underline;
 }
   
 description-anchor:active {
-    color: #ffffffff;
+    color: $section-headings-color;
     opacity: 0.7;
     text-decoration: underline;
 }
