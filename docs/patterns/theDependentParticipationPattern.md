@@ -23,7 +23,7 @@ can share with potential counter parties.
 
 ## Implementation
 
-``` {.JavaScript}
+```js
 const start = zcf => {
   const offerHandler = seat => {
     //...

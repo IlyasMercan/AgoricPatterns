@@ -43,7 +43,7 @@ the parameter at the moment that an instance of the smart contract is
 started.
 
 ## Example
-``` {.JavaScript}
+```js
 const start = async zcf => {
   let requiredAttribute;
   const realCreatorFacet = Far('realCreatorFacet', {

@@ -23,7 +23,7 @@ that the following example is based on the default way by which Agoric
 handles untrusted invitations as, for example, illustrated in the atomic
 swap smart contract test code provided by Agoric [2].
 
-``` {#invitationIssuer .JavaScript language="JavaScript" caption="Bob uses the invitationIssuer to claim the untrusted counterInvitation" label="invitationIssuer"}
+```js
 //Bob does not trust the invitation
 //Bob claims the invitation using Zoe's invitationIssuer
 const invitationIssuer = await E(zoe).getInvitationIssuer();

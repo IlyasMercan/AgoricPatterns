@@ -11,7 +11,7 @@ Entities can only interact with the hardened object by using the methods that th
 Agoric describes a hardened object is an object of which the properties can't be changed [2]. To harden an object, the `harden` function is used. Object `o` can be hardened using the `harden` function by calling `harden(o)`. The `harden` function recursively calls JavaScript's `Object.freeze` function on the properties of the object that is hardened [3]. Agoric suggests that the `harden` function should be called on all objects that will be transferred across a trust boundary [1] [4]. The strictest way an entity could define a trust boundary, is by assuming itself as trusted, and all other entities as untrusted.
 
 ## Example
-``` {.JavaScript}
+```js
 //Alice creates an object which holds her contact informatoin
 const aliceContactObject = {
     name:"Alice",
@@ -29,7 +29,7 @@ t.deepEqual(aliceContactObject.walletAddress,"54321-wallet-address-Bob-54321");
 
 The code above shows an example of what happens when `harden` is not called on an object that passes the trust boundary. Alice creates an object holding her contact information. She passes this object to Bob without using the `harden` function first. Bob is now able to change the `walletAddressAlice` property of the `aliceContactObject` object to his own wallet address. This means that, at this point in time, there is an object circulating which Alice expects to hold her wallet address, while it actually holds Bob's address.
 
-``` {.JavaScript}
+```js
 //Alice creates a hardened object which holds her contact informatoin
 const aliceContactObject = harden({
     name:"Alice",

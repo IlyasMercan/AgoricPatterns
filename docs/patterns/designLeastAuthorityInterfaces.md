@@ -13,7 +13,7 @@ introduction [1]. A smart contract can return a `creatorInvitation`, a `creatorF
 
 ## Example
 
-```{.JavaScript}
+```js
 const start = zcf => {
   let internalSeat;
   const setInternalSeat = seat => {
@@ -35,7 +35,7 @@ export { start };
 
 The smart contract shown above is a trivial smart contract which allows 2 things: it allows the creator to position itself on the `internalSeat`, and it allows any other entity to get this `internalSeat`.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorInvitation, publicFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,
@@ -70,7 +70,7 @@ t.deepEqual(await E(aliceSeat).hasExited(), true);
 
 The above test shows that creator Alice uses her `creatorInvitation` to make an offer to Zoe. By performing this offer, Alice's seat will be set to the `internalSeat`. Bob comes along, and wants to see what Alice is offering. Bob uses the `getSeat` method of the `publicFacet` to get the `internalSeat` of the smart contract. This introduces Alice's seat object to Bob. Bob decides to exit the seat object, leaving the smart contract in an inconsistent state. This is because Alice does not expect her seat to be exited: Alice should be the only entity that is able to exit her seat.
 
-``` {.JavaScript}
+```js
 const start = zcf => {
   let internalSeat;
   const setInternalSeat = seat => {
@@ -98,7 +98,7 @@ export { start };
 
 The above smart contract resolves the issue portrayed in the initial smart contract: instead of returning the actual `internalSeat`, only the 'give' and the 'want' part of the proposal of the `internalSeat` are returned.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorInvitation, publicFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,

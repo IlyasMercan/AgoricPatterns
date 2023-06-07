@@ -23,7 +23,7 @@ participate in the smart contract.
 -   Counterparty: the entity that wants to trade with the creator.
 
 ## Implementation
-``` {.JavaScript}
+```js
 const start = zcf => {
   const offerHandler = seat => {
     //...

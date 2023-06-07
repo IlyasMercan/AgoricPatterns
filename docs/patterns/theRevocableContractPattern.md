@@ -38,7 +38,7 @@ the `revoked` attribute is equal to `false`, and will only execute the
 requested method if this is indeed the case. 
 
 ## Example
-``` {.JavaScript}
+```js
 const start = async zcf => {
   const stop = seat => {
     zcf.shutdown('contract expired');
@@ -83,7 +83,7 @@ can be used by Alice to shut down the smart contract. This way, other
 entities should no longer be able to get Alice's contact information
 from the smart contract.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorFacet, publicFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,
@@ -143,7 +143,7 @@ Carol then attempts to use the `getContactInfo` method on the
 since the initial smart contract does not yet implement the revocable
 contract pattern.
 
-``` {.JavaScript}
+```js
 const start = async zcf => {
   let revoked = false;
   const stop = seat => {
@@ -193,7 +193,7 @@ method will only return Alice's contract info if the `revoked` attribute
 is set to `false`. Else, it will return a message stating that the smart
 contract has been shut down.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorFacet, publicFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,

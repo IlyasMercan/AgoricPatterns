@@ -25,7 +25,7 @@ to first perform all checks on the input parameters updating the
 contract state.
 
 ## Example
-``` {.JavaScript}
+```js
 const start = zcf => {
   let naturalNumbersList = [];
   const getNaturalNumbersList = () => {
@@ -53,7 +53,7 @@ creator of the smart contract can retrieve the natural numbers list
 using the `getNaturalNumbersList` method, provided by the
 `creatorFacet`.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the smart contract
 const { creatorFacet, publicFacet } = await E(zoe).startInstance(installation);
 //Alice shares the publicFacet
@@ -73,7 +73,7 @@ number to the `naturalNumbersList`. This brings the smart contract into
 an invalid state, since there should only be natural numbers in the
 `naturalNumbersList`.
 
-``` {.JavaScript}
+```js
 const start = zcf => {
   let naturalNumbersList = [];
   const getNaturalNumbersList = () => {
@@ -101,7 +101,7 @@ validation, as seen in the code above. Here, the
 natural number. If this is the case, the code will execute as usual. If
 this is not the case, an exception is thrown [2].
 
-``` {.JavaScript language="JavaScript"}
+```js
 //Alice starts an instance of the smart contract
 const { creatorFacet, publicFacet } = await E(zoe).startInstance(installation);
 //Alice shares the publicFacet

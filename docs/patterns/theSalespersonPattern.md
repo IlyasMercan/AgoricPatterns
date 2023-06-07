@@ -23,7 +23,7 @@ this pattern.
 -   Customer: the entity that wants to trade with the creator.
 
 ## Implementation
-``` {.JavaScript}
+```js
 const start = zcf => {
   let internalSeat;
   const sellOfferHandler = creatorSeat => {

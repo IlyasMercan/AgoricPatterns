@@ -12,7 +12,7 @@ An Agoric smart contracts returns a record which consists of (a subset of) the f
 
 ## Example
 
-``` {.JavaScript}
+```js
 const start = async zcf => {
   const getConfidentialInformation = () => {
     return 'confidential information';
@@ -32,7 +32,7 @@ export { start };
 
 The code above shows a smart contract with 2 methods. The `getConfidentialInformation` method returns information that should only be known by the entity that started an instance of the smart contract. The `getPublicInformation` method returns information which can be known by all users. Both methods are made available via the `publicFacet`.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { publicFacet } = await zoe.startInstance(installation);
 
@@ -50,7 +50,7 @@ In the test code above, Alice starts an instance of the initial smart contract. 
 the smart contract to the board, which Agoric describes as *a shared, on-chain location where users can post a value and make it accessible to others* [2] [3]. Bob retrieves the `instance` of the smart contract from the board and uses it to retrieve the `publicFacet`. Then,
 Bob can use the `publicFacet` to access the confidential information via the `getConfidentialInformation` method. This is a problem, since only Alice should be able to access the `getConfidentialInformation` method.
 
-``` {.JavaScript}
+```js
 const start = async zcf => {
   const getConfidentialInformation = () => {
     return 'confidential information';
@@ -72,7 +72,7 @@ export { start };
 
 The above code shows an improved version of the initial smart contract. In listing this smart contract, the `getConfidentialInformation` method is returned in the `creatorFacet` instead of in the `publicFacet`.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorFacet, publicFacet } = await zoe.startInstance(installation);
   

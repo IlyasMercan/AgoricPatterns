@@ -37,7 +37,7 @@ independent participation pattern.
 -   Customer: the entity that wants to trade with the creator.
 
 ## Implementation
-``` {.JavaScript}
+```js
 const start = async zcf => {
   const { zcfSeat: internalSeat } = zcf.makeEmptySeatKit();
   const makeDepositOfferHandler = depositSeat => {

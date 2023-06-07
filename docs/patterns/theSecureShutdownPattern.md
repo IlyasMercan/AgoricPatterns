@@ -16,7 +16,7 @@ Thus, a smart contract developer should ensure that all funds are
 withdrawn from the internal seat before the contract is shut down.
 
 ## Example
-``` {.JavaScript}
+```js
 const start = async zcf => {
   const { zcfSeat: internalSeat } = zcf.makeEmptySeatKit();
   const shutdown = seat => {
@@ -55,7 +55,7 @@ is the offer handler related to the shut down invitation) shuts down the
 smart contract without reallocating the funds from the `internalSeat` to
 the seat of the entity that issued the shut down invitation.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,
@@ -100,7 +100,7 @@ deposit 250 AlphaCoins to the `internalseat`. She then shuts down the
 smart contract without first withdrawing the 250 AlphaCoins from the
 `internalseat`. By doing this, the 250 AlphaCoins are lost.
 
-``` {.JavaScript}
+```js
 const start = async zcf => {
   const { zcfSeat: internalSeat } = zcf.makeEmptySeatKit();
   const shutdown = seat => {
@@ -136,7 +136,7 @@ This code above shows a modified version of the initial smart contract. In this 
 reallocates all funds from the `internalSeat` to the seat that issued
 the shutdown invitation.
 
-``` {.JavaScript}
+```js
 //Alice starts an instance of the installation
 const { creatorFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,

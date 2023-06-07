@@ -16,7 +16,7 @@ Eventual send is implemented in Agoric using the `E` function [4]. Thus, if an e
 ## Example
 Note: the following code example and the corresponding explanation is based on an example provided by Brian Warner of Agoric [5].
 
-``` {.JavaScript}
+```js
 let balance;
 
 function buyPainting() {
@@ -29,7 +29,7 @@ function buyPainting() {
 
 The `buyPainting` function in the code above states the following: if the balance is greater than 100, then the painting is delivered to the customer. After that, 100 is subtracted from the balance. The issue is that the `customer` object and its implementation of the `deliver` method can't be trusted. It might be that the `deliver` method of the `customer` object accepts the painting and throw an exception, avoiding that 100 is charged. It could also be possible that the implementation of the deliver method calls the `buyPainting` function again, bringing the balance is an inconsistent state.
 
-``` {.JavaScript}
+```js
 let balance;
 
 function buyPainting() {
@@ -45,7 +45,7 @@ The `buyPainting` function in the code above has the following flow of execution
 It no longer matters how the `customer` object has implemented the
 `deliver` method. If the `customer` object has implemented the `deliver` method to throw an exception, then the exception will be thrown after the balance has been subtracted. If the `customer` object implemented the `deliver` method to call the `buyPainting` function, the `buyPainting` function will be called after the balance has been subtracted. Because of the usage of `E`, the delivery of the painting will always occur when the stack is empty, and thus after the balance has been subtracted.
 
-``` {.JavaScript}
+```js
 let balance;
 
 async function buyPainting() {

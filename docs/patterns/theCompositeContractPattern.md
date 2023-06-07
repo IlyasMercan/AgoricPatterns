@@ -24,7 +24,7 @@ smart contract that configures the generic smart contract.
 
 ## Implementation
 
-``` {.JavaScript}
+```js
 const start = zcf => {
     const zoe = zcf.getZoeService();
     const startInstanceOfWrappedContract = ({

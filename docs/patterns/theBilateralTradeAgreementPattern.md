@@ -29,7 +29,7 @@ smart contract determines what other entity it will trade with.
 
 ## Implementation
 
-``` {.JavaScript}
+```js
 const start = zcf => {
   const firstOfferOfferHandler = creatorSeat => {
     assertProposalShape(creatorSeat, /*some shape*/);

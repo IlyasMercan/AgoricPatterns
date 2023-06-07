@@ -18,7 +18,7 @@ amount of trades, where each trade is an exchange between 2 entities.
 
 ## Implementation
 
-``` {.JavaScript}
+```js
 const start = zcf => {
   const seats = /*some data structure*/;
   const exchangeOfferHandler = seat => {
