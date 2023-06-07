@@ -13,7 +13,6 @@ introduction [1]. A smart contract can return a `creatorInvitation`, a `creatorF
 
 ## Example
 
-{% highlight javascript %}
 ```{.JavaScript}
 const start = zcf => {
   let internalSeat;
@@ -33,11 +32,10 @@ const start = zcf => {
 harden(start);
 export { start };
 ```
-{% endhighlight %}
 
 The smart contract shown above is a trivial smart contract which allows 2 things: it allows the creator to position itself on the `internalSeat`, and it allows any other entity to get this `internalSeat`.
 
-``` {#avoidAbundantIntroductionTest .JavaScript language="JavaScript" caption="Bob can bring the smart contract into an inconsistent state" label="avoidAbundantIntroductionTest"}
+``` {.JavaScript}
 //Alice starts an instance of the installation
 const { creatorInvitation, publicFacet } = await zoe.startInstance(installation, {
   Asset: alphaCoin.issuer,
