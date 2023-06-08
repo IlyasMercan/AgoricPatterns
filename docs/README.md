@@ -23,6 +23,6 @@
 		+ [The revocable contract pattern](patterns/theRevocableContractPattern.md)
 		+ [The secure shutdown pattern](patterns/theSecureShutdownPattern.md)
 	
-More information on how to read a seat structure diagram can be found [here](/legenda/legenda.md).
+More information on how to read a seat structure diagram can be found [here](legenda/legenda.md).
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
