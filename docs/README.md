@@ -23,6 +23,18 @@
 		+ [The revocable contract pattern](patterns/theRevocableContractPattern.md)
 		+ [The secure shutdown pattern](patterns/theSecureShutdownPattern.md)
 	
+## Seat structure diagrams
++ [Atomic swap](seatStructureDiagrams/atomicSwap.md)
++ [Automatic Refund](seatStructureDiagrams/automaticRefund.md)
++ [Barter Exchange](seatStructureDiagrams/barterExchange.md)
++ [Covered Call](seatStructureDiagrams/coveredCall.md)
++ [Mint and Sell NFTs](seatStructureDiagrams/mintAndSellNFTs.md)
++ [Mint Payments](seatStructureDiagrams/mintPayments.md)
++ [Oracle](seatStructureDiagrams/oracle.md)
++ [OTC Desk](seatStructureDiagrams/otcDesk.md)
++ [Sell Items](seatStructureDiagrams/sellItems.md)
++ [Simple Exchange](seatStructureDiagrams/simpleExchange.md)
+
 More information on how to read a seat structure diagram can be found [here](legenda/legenda.md).
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
