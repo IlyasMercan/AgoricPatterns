@@ -31,7 +31,7 @@
 + [Mint and Sell NFTs](seatStructureDiagrams/mintAndSellNFTs.md)
 + [Mint Payments](seatStructureDiagrams/mintPayments.md)
 + [Oracle](seatStructureDiagrams/oracle.md)
-+ [OTC Desk](seatStructureDiagrams/otcDesk.md)
++ [OTC Desk](seatStructureDiagrams/OTCDesk.md)
 + [Sell Items](seatStructureDiagrams/sellItems.md)
 + [Simple Exchange](seatStructureDiagrams/simpleExchange.md)
 
