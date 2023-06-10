@@ -12,7 +12,7 @@ Agoric describes a hardened object is an object of which the properties can't be
 
 ## Example
 ```js
-//Alice creates an object which holds her contact informatoin
+//Alice creates an object which holds her contact information
 const aliceContactObject = {
     name:"Alice",
     walletAddress:"12345-wallet-address-Alice-12345"
@@ -30,7 +30,7 @@ t.deepEqual(aliceContactObject.walletAddress,"54321-wallet-address-Bob-54321");
 The code above shows an example of what happens when `harden` is not called on an object that passes the trust boundary. Alice creates an object holding her contact information. She passes this object to Bob without using the `harden` function first. Bob is now able to change the `walletAddressAlice` property of the `aliceContactObject` object to his own wallet address. This means that, at this point in time, there is an object circulating which Alice expects to hold her wallet address, while it actually holds Bob's address.
 
 ```js
-//Alice creates a hardened object which holds her contact informatoin
+//Alice creates a hardened object which holds her contact information
 const aliceContactObject = harden({
     name:"Alice",
     walletAddress:"12345-wallet-address-Alice-12345"
