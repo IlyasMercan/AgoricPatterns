@@ -50,7 +50,7 @@ searches performed by the matching algorithm.
 
 ## Related patterns
 -   The independent participation pattern: since the exchange pattern
-    provides a `creatorFacet` with a method to create invitations, it
+    provides a `publicFacet` with a method to create invitations, it
     can be stated that the exchange pattern makes use of the independent
     participation pattern.
 -   The salesperson pattern: both the salesperson pattern and the
