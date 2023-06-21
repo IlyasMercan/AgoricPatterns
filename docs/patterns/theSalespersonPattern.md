@@ -31,7 +31,7 @@ const start = zcf => {
     //...
   };
   const buyOfferHandler = customerSeat => {
-    //some trade with between customerSeat and internalSeat
+    //some trade between customerSeat and internalSeat
   };
   const creatorInvitation = zcf.makeInvitation(sellOfferHandler, 'sell');  
   return harden({ creatorInvitation });
