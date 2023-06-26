@@ -65,5 +65,5 @@ that it will trade with.
     also dependent on the creator. The difference is that in the
     bilateral trade pattern, one instance of the smart contract
     guarantees exactly one trade, while in the dependent participation
-    pattern once instance of the smart contract guarantees an arbitrary
+    pattern one instance of the smart contract guarantees an arbitrary
     amount of trades.
